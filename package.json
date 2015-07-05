@@ -1,0 +1,32 @@
+{
+  "name": "container.js",
+  "version": "1.0.0",
+  "description": "A dead-simple container extension for any npm module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node spec/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefabulousdev/Container.js.git"
+  },
+  "keywords": [
+    "container",
+    "module",
+    "container",
+    "node.js",
+    "javascript"
+  ],
+  "author": "Joel Hernandez <bengaldevelop@gmail.com> (https://github.com/joelhdzfdz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thefabulousdev/Container.js/issues"
+  },
+  "homepage": "https://github.com/thefabulousdev/Container.js#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
