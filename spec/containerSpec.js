@@ -23,6 +23,7 @@ describe('container',function(){
 
     beforeEach(function(){
         Car.container = new Container(Car);
+        console.log()
     });
 
     it('should remove an item with a given identifier',function(){
@@ -64,6 +65,11 @@ describe('container',function(){
                     expect(storedItem.numberOfWheels == Car.container.defaults[0] && storedItem.numberOfDoors == Car.container.defaults[1]).toBe(true);
                 });
 
+                it('should return the added instance',function(){
+                    var instance = Car.container.add(itemIdentifier);
+                    expect(instance instanceof Car).toBe(true);
+                });
+
                 it('should be able to override defaults',function(){
                     Car.container.add(itemIdentifier,20,10);
                     // Retrieve it manually to avoid double testing.
@@ -94,6 +100,11 @@ describe('container',function(){
                     // Retrieve it manually to avoid double testing.
                     var storedItem = Car.container.storage[itemIdentifier];
                     expect(storedItem.numberOfWheels == Car.container.defaults.numberOfWheels && storedItem.numberOfDoors == Car.container.defaults.numberOfDoors).toBe(true);
+                });
+
+                it('should return the added instance',function(){
+                    var instance = Car.container.add(itemIdentifier);
+                    expect(instance instanceof Car).toBe(true);
                 });
 
                 it('should be able to override defaults',function(){
