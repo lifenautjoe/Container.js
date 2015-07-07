@@ -23,7 +23,6 @@ describe('container',function(){
 
     beforeEach(function(){
         Car.container = new Container(Car);
-        console.log()
     });
 
     it('should remove an item with a given identifier',function(){
