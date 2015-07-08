@@ -9,8 +9,7 @@ Motivation
 Installation
 --------
 
-    #npm install container.js
-    # Currently unavailable due to npm bug.
+    npm install container.js
 
 Usage
 --------
@@ -27,7 +26,7 @@ Usage
 On it's simplest form
 
 ``` js
-var Container = require("container-js");
+var Container = require("container.js");
 
 var constructorContainer = new Container(Constructor);
 ```
@@ -35,7 +34,7 @@ var constructorContainer = new Container(Constructor);
 However a most likely desired usage  will be the following
 
 ``` js
-var Container = require("container-js");
+var Container = require("container.js");
 
 var Constructor = function(){
 
@@ -186,7 +185,7 @@ container.has(identifier); // Returns a boolean
 
 ### Installing Container.js
 ```
-  [sudo] npm install container-js
+  [sudo] npm install container.js
 ```
 
 ## Run Tests
