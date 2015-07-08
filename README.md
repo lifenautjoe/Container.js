@@ -9,7 +9,8 @@ Motivation
 Installation
 --------
 
-    npm install container-js
+    #npm install container.js
+    # Currently unavailable due to npm bug.
 
 Usage
 --------
