@@ -81,14 +81,14 @@ container.add('paul');
 ```
 The `Human` constructor will now be called with the `'male','USA','yellow'` arguments .
 
-####Want to override your defaults ?
+#### Want to override your defaults ?
 Call the `add` method with the individual instance arguments as 
 
 ``` js
 container.add('sarah','female','canada','pink');
 ```
 
-####Want to override just some of your defaults?
+#### Want to override just some of your defaults?
 Call the `add` method with the individual instance arguments and `undefined` to use the default value for a parameter 
 ``` js
 container.add('carl',undefined,undefined,'green');
@@ -131,7 +131,7 @@ The `Alien` constructor will now be called with the configuration object
 ```
 
 
-####Want to override your defaults ?
+#### Want to override your defaults ?
 Call the `add` method with the individual instance configuration object attributes as
 
 ``` js
@@ -142,7 +142,7 @@ container.add('han solo',{
 });
 ```
 
-####Want to override just some of your defaults?
+#### Want to override just some of your defaults?
 Call the `add` method with the individual instance configuration argument attributes omitting the attributes where the default value should be used
 ``` js
 container.add('wicket',{
@@ -160,7 +160,7 @@ The `Alien` constructor will now be called with the configuration object
 }
 ```
 
-##Adding an instance
+## Adding an instance
 ``` js
 // Returns the added instance
 container.add(identifier,args...);
