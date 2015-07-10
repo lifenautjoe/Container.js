@@ -1,6 +1,7 @@
 ![Container.js](http://i.imgur.com/PD9tfYl.png)
 
 **A dead-simple instance container for [node.js.](https://nodejs.org/)**
+
 ![dependencies](https://david-dm.org/thefabulousdev/Container.js.svg)
 Motivation
 --------
