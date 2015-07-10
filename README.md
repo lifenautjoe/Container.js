@@ -1,7 +1,7 @@
 ![Container.js](http://i.imgur.com/PD9tfYl.png)
 
 **A dead-simple instance container for [node.js.](https://nodejs.org/)**
-
+![dependencies](https://david-dm.org/thefabulousdev/Container.js.svg)
 Motivation
 --------
 **Container.js** aims to be as simple and unobtrusive as possible while providing a reliable way to store and access instances of a predefined constructor.
