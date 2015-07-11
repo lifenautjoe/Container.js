@@ -172,6 +172,10 @@ container.add(identifier,args...);
 // Returns the retrieved instance.
 container.get(identifier);
 ```
+## Removing an instance
+``` js
+container.remove(identifier);
+```
 ## Checking for existence
 ``` js
 // Returns a boolean.
