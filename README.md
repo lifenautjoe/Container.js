@@ -21,6 +21,7 @@ Usage
   * [Single configuration object](#single-configuration-object)
 * [Adding an instance](#adding-an-instance)
 * [Retrieving an instance](#retrieving-an-instance)
+* [Removing an instance](#removing-an-instance)
 * [Checking for existence](#checking-for-existence)
 
 ## Instantiation
