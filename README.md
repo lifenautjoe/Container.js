@@ -2,8 +2,7 @@
 
 **A dead-simple instance container for [node.js.](https://nodejs.org/)**
 
-[![dependencies](https://david-dm.org/thefabulousdev/Container.js.svg)](https://david-dm.org/thefabulousdev/Container.js)  
-[![Build Status](https://travis-ci.org/thefabulousdev/Container.js.svg?branch=master)](https://travis-ci.org/thefabulousdev/Container.js)
+[![dependencies](https://david-dm.org/thefabulousdev/Container.js.svg)](https://david-dm.org/thefabulousdev/Container.js)[![Build Status](https://travis-ci.org/thefabulousdev/Container.js.svg?branch=master)](https://travis-ci.org/thefabulousdev/Container.js)
 --------
 Motivation
 --------
