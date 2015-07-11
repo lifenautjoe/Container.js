@@ -1,6 +1,6 @@
 {
   "name": "container.js",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "A dead-simple instance container for node.js.",
   "main": "index.js",
   "scripts": {
