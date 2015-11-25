@@ -2,7 +2,7 @@
 
 **A dead-simple instance container for [node.js.](https://nodejs.org/)**
 
-[![dependencies](https://david-dm.org/thefabulousdev/Container.js.svg)](https://david-dm.org/thefabulousdev/Container.js)[![Build Status](https://travis-ci.org/thefabulousdev/Container.js.svg?branch=master)](https://travis-ci.org/thefabulousdev/Container.js)
+[![Code Climate](https://codeclimate.com/github/thefabulousdev/Container.js/badges/gpa.svg)](https://codeclimate.com/github/thefabulousdev/Container.js)[![dependencies](https://david-dm.org/thefabulousdev/Container.js.svg)](https://david-dm.org/thefabulousdev/Container.js)[![Build Status](https://travis-ci.org/thefabulousdev/Container.js.svg?branch=master)](https://travis-ci.org/thefabulousdev/Container.js)
 --------
 Motivation
 --------
@@ -49,7 +49,7 @@ Constructor.container = new Container(Constructor);
 module.exports = Constructor;
 
 ```
-for if the `Human` constructor module is exported and then required elsewhere,  the container and it's items will be available as 
+for if the constructor module is exported and then required elsewhere,  the container and it's items will be available as 
 ``` js
 var Constructor = require('constructor');
 
