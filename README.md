@@ -6,8 +6,7 @@
 --------
 Motivation
 --------
-**Container.js** aims to be as simple and unobtrusive as possible while providing a reliable way to store and access instances of a predefined constructor.
-**While it can be used in many ways , the main motivation behind the module was to provide a way to share constructor instances between a [node.js](https://nodejs.org/) application by attaching a container instance to the class/constructor.**
+Provide a reliable way to create (optionally, with default parameters), store and retrieve instances of a predefined constructor.
 
 Installation
 --------
