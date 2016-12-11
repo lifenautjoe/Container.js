@@ -1,6 +1,6 @@
 ![Container.js](http://i.imgur.com/PD9tfYl.png)
 
-**A dead-simple instance container for [node.js.](https://nodejs.org/)**
+**An instance container for [node.js.](https://nodejs.org/)**
 
 [![Code Climate](https://codeclimate.com/github/thefabulousdev/Container.js/badges/gpa.svg)](https://codeclimate.com/github/thefabulousdev/Container.js)[![dependencies](https://david-dm.org/thefabulousdev/Container.js.svg)](https://david-dm.org/thefabulousdev/Container.js)[![Build Status](https://travis-ci.org/thefabulousdev/Container.js.svg?branch=master)](https://travis-ci.org/thefabulousdev/Container.js)
 --------
